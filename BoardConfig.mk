@@ -35,6 +35,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 TARGET_CAMERA_NEEDS_CLIENT_INFO := true
 
 # Recovery
+TARGET_NO_RECOVERY := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Fingerprint
