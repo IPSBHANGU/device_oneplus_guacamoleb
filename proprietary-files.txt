@@ -25,7 +25,6 @@ lib/libtrueportrait.so
 lib/libtruescanner.so
 lib/libubifocus.so
 lib/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so
-lib/vendor.oneplus.camera.CameraHIDL@1.0.so
 lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 lib/vendor.qti.hardware.scve.panorama@1.0.so
 lib64/libblurbuster.so
@@ -56,7 +55,6 @@ lib64/libtrueportrait.so
 lib64/libtruescanner.so
 lib64/libubifocus.so
 lib64/vendor.oneplus.camera.CameraHIDL@1.0-adapter-helper.so
-lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
 lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so
 lib64/vendor.qti.hardware.scve.panorama@1.0.so
 
@@ -186,7 +184,6 @@ vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvl53l1_daemon.so
 vendor/lib/sensors.hal.tof.so
-vendor/lib/vendor.oneplus.camera.CameraHIDL@1.0.so
 vendor/lib64/camera/components/com.oneplus.node.bokeh.so
 vendor/lib64/camera/components/com.oneplus.node.eis.so
 vendor/lib64/camera/components/com.oneplus.node.memcpy.so
@@ -303,7 +300,6 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
-vendor/lib64/vendor.oneplus.camera.CameraHIDL@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
