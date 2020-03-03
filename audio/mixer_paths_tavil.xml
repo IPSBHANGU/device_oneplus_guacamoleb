@@ -3013,7 +3013,7 @@
         <ctl name="DEC0 Volume" value="84" />
     <!-- #ifdef VENDOR_EDIT liuhaituo Reduce 3db(12->10) adc gain to solve the problem
           of headset mode voip call tx topping-->
-             <ctl name="ADC2 Volume" value="10" />
+        <ctl name="ADC2 Volume" value="10" />
     <!-- #endif -->
     </path>
 
@@ -3387,6 +3387,7 @@
     <path name="speaker-mic-wechat-front">
         <ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
         <ctl name="AIF1_CAP Mixer SLIM TX6" value="1" />
+        <ctl name="SLIM_0_TX Channels" value="Two" />
         <ctl name="CDC_IF TX5 MUX" value="DEC5" />
         <ctl name="ADC MUX5" value="AMIC" />
         <ctl name="AMIC MUX5" value="ADC3" />
@@ -3409,9 +3410,6 @@
         <ctl name="ADC MUX6" value="AMIC" />
         <ctl name="AMIC MUX6" value="ADC4" />
         <ctl name="AMIC4_5 SEL" value="AMIC4" />
-        <ctl name="CDC_IF TX7 MUX" value="DEC7" />
-        <ctl name="ADC MUX7" value="AMIC" />
-        <ctl name="AMIC MUX7" value="ADC1" />
         <ctl name="ADC3 Volume" value="6" />
         <ctl name="ADC4 Volume" value="6" />
     </path>
@@ -3829,10 +3827,6 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
-<!-- ifdef VENDOR_EDIT -->
-        <ctl name="ADC4 Volume" value="6" />
-        <ctl name="DEC0 Volume" value="62" />
-<!-- endif -->
     </path>
 
     <path name="unprocessed-stereo-mic">
