@@ -830,7 +830,6 @@
     <path name="low-latency-playback">
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
     </path>
-
 <!-- #ifdef VENDOR_EDIT -->
 <!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
     <path name="low-latency-playback quat_i2s">
@@ -1064,14 +1063,12 @@
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
     <!-- #endif -->
     </path>
-
 <!-- #ifdef VENDOR_EDIT -->
 <!-- wangdongdong@MultiMediaService,2016/10/01,add i2s path-->
     <path name="compress-offload-playback quat_i2s">
         <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia4" value="1" />
     </path>
 <!--#endif-->
-
     <path name="compress-offload-playback speaker-protected">
         <path name="compress-offload-playback" />
     </path>
@@ -2802,6 +2799,13 @@
 <!-- #endif VENDOR_EDIT-->
     </path>
 
+<!-- ifdef VENDOR_EDIT -->
+<!-- liuhaituo@MM.Audio, 2019/12/31, Add for Sva record training wav -->
+    <path name="sva-re-mic">
+        <path name="amic4" />
+    </path>
+<!-- endif -->
+
 <!--#ifdef VENDOR_EDIT  -->
     <path name="handset-mic-karaoke">
         <ctl name="AIF1_CAP Mixer SLIM TX5" value="1" />
@@ -3217,6 +3221,10 @@
 
     <path name="voice-rec-mic">
         <path name="handset-mic" />
+<!-- ifdef VENDOR_EDIT -->
+        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="DEC0 Volume" value="74" />
+<!-- endif -->
     </path>
 
     <path name="camcorder-mic">
@@ -3827,6 +3835,10 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
+<!-- ifdef VENDOR_EDIT -->
+        <ctl name="ADC4 Volume" value="6" />
+        <ctl name="DEC0 Volume" value="78" />
+<!-- endif -->
     </path>
 
     <path name="unprocessed-stereo-mic">
