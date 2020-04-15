@@ -7,5 +7,5 @@ on fs
 service tri-state-key-calibrate_daemon /vendor/bin/tri-state-key-calibrate_daemon
     class late_start
     user system
-    group system
+    group system uhid
     oneshot
