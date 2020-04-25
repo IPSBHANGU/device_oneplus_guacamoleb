@@ -14,6 +14,7 @@ TARGET_OTA_ASSERT_DEVICE := OnePlus7
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
