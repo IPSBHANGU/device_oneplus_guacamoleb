@@ -14,9 +14,7 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Color of the FOD view -->
-    <color name="config_fodColor">#FF00CC00</color>
-
     <!-- Allow devices to use unordinary cutout overlays -->
     <bool name="config_customCutout">true</bool>
+
 </resources>
