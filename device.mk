@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator@1.2-service
+
 # tri-state key
 PRODUCT_PACKAGES += \
     tri-state-key-calibrate_daemon
