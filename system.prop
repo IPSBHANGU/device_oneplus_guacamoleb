@@ -1,2 +1,3 @@
 # Google
 ro.build.release_type=release
+ro.opa.eligible_device=true
